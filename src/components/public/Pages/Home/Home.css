@@ -1,0 +1,24 @@
+.section__1 {
+        padding: 30px;
+        text-align: center;
+}
+
+.section__1 h2 {
+        font-size: 30px;
+        color: rgb(77, 0, 0);
+}
+
+.section__1 h3 {
+        font-size: 25px;
+        color: rgb(14, 14, 14);
+}
+
+.section__1 button {
+        padding: 10px 15px;
+        font-size: 18px;
+        background-color: rgb(39, 1, 1);
+        color: white;
+        border: none;
+        cursor: pointer;
+        margin-top: 10px;
+}

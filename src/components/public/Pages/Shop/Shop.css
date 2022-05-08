@@ -1,0 +1,12 @@
+.books__shop {
+        max-width: 700px;
+        margin: auto;
+        text-align: center;
+        padding: 30px;
+}
+
+.books__details {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+}

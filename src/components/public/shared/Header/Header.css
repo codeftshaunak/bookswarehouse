@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Water+Brush&display=swap');
+
+* {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+}
+
+body {
+        font-family: 'Poppins',
+                sans-serif;
+}
+
+nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 50px;
+        background-color: black;
+}
+
+nav svg {
+        font-size: 25px;
+        color: white;
+        cursor: pointer;
+}
+
+/* nav svg:hover {
+        transition: all 0.3s ease-in-out;
+        font-size: 30px;
+} */
+
+.navbar {
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+        bottom: 0;
+}
+
+.navbar a {
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        margin-left: 25px;
+        font-size: 15px;
+}
+
+
+.logo {
+        font-family: 'Water Brush',
+                cursive;
+        color: white;
+}
+
+.hidden {
+        display: none;
+}

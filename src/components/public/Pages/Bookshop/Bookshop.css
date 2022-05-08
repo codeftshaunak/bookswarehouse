@@ -1,0 +1,89 @@
+.books__detail {
+        text-align: left;
+        padding: 0px 20px 0px 0px;
+        display: flex;
+        border: 1px solid beige;
+        margin-top: 50px;
+        box-shadow: 1px 2px 14px 1px #bfbfbf;
+}
+
+.books__detail .image {
+        padding-right: 10px;
+}
+
+.books__detail .content {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+}
+
+.books__detail img {
+        max-width: 200px;
+        display: block;
+        margin: auto;
+        object-fit: cover;
+        height: 200px;
+}
+
+.books__detail .book__title {
+        font-size: 18px;
+        font-weight: 400;
+}
+
+.books__detail .book__author {
+        font-size: 13px;
+        font-weight: 300;
+}
+
+.books__detail .book__seller {
+        color: red;
+        font-weight: 300;
+}
+
+.books__detail .book__category {
+        font-weight: 400;
+}
+
+.book__addtocart {
+        padding: 5px 10px;
+        cursor: pointer;
+        background-color: black;
+        border: none;
+        color: white;
+        font-weight: 500;
+        font-family: 'poppins';
+        transition: 0.2s ease-in-out;
+}
+
+.book__addtocart:hover {
+        background-color: gray;
+        color: black;
+}
+
+.book__details {
+        padding: 5px 10px;
+        cursor: pointer;
+        background-color: black;
+        border: none;
+        color: white;
+        font-weight: 500;
+        font-family: 'poppins';
+        transition: 0.2s ease-in-out;
+        margin-left: 5px;
+}
+
+.book__details:hover {
+        background-color: gray;
+        color: black;
+}
+
+.des__show__btn {
+        padding: 10px;
+        color: rgb(192, 192, 192);
+        background: black;
+        border: none;
+        border-radius: 20px;
+        font-size: 12px;
+        font-weight: bolder;
+        cursor: pointer;
+}
