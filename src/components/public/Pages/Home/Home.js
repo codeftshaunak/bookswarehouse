@@ -1,4 +1,5 @@
 import React from "react";
+import Shop from "../Shop/Shop";
 import "./Home.css";
 
 function Home() {
@@ -8,15 +9,18 @@ function Home() {
         <h2>Become A Partner & Earn</h2>
         <h3>Tk 30,000/Per Month</h3>
         <img
-          src="https://img.freepik.com/free-vector/business-thinking-background_1361-1262.jpg?t=st=1651986376~exp=1651986976~hmac=2c0190f332bf8bc0f6b31e6baba6285b2b68b7c1d4024bd272568299a853f084&w=740"
+          src="https://img.freepik.com/free-vector/people-doodle-vector-happy-workers-green-office-characters_53876-143503.jpg?t=st=1651986238~exp=1651986838~hmac=2ef7aed705dc1170681743069911031973031b06cef0b81135bc482b04b3df7a&w=740"
           alt="becomepartner"
         />
         <br />
         <button>Join us</button>
       </div>
+
+      <div className="section__3">{<Shop></Shop>}</div>
+
       <div className="section__2">
-        <h4>Read Our Books</h4>
         <div className="left">
+          <h4>Read Our Books</h4>
           <p>
             "Books help us understand who we are and how we are to behave. They
             show us what community and friendship mean; they show us how to live

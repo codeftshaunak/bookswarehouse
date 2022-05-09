@@ -3,10 +3,10 @@ import Bookshop from "../Bookshop/Bookshop";
 import "./Shop.css";
 
 function Shop() {
-  const [booksItem, setBooksItem] = useState([]);
-
+  const [booksitem, setBooksItem] = useState([]);
+  const booksItem = booksitem.slice(0, 7);
   useEffect(() => {
-    fetch("http://localhost:5000/bookshop")
+    fetch("https://peaceful-atoll-26773.herokuapp.com/bookshop")
       .then((res) => res.json())
       .then((data) => setBooksItem(data));
   }, []);
@@ -14,7 +14,7 @@ function Shop() {
   return (
     <>
       <div className="books__shop">
-        <h1>Welcome to the book shop</h1>
+        <h1>Smaple Products</h1>
         <h4>
           Before you buy any book's let me tell you why you should read books.
         </h4>
@@ -27,18 +27,8 @@ function Shop() {
         </p>
       </div>
       <div className="books__details">
-        {/* {loading ? (
-          <h1>Loading...</h1>
-        ) : error ? (
-          <h1>Something wants wrong...</h1>
-        ) : (
-          booksItem.map((books) => (
-            <Bookshop key={books.id} book={books}></Bookshop>
-          ))
-        )} */}
-
         {booksItem.map((books) => (
-          <Bookshop key={books._id} book={books}></Bookshop>
+          <Bookshop key={books._id} books={books}></Bookshop>
         ))}
       </div>
     </>

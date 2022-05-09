@@ -9,6 +9,9 @@ function Header() {
     <>
       <nav>
         <div className="navbar">
+          <div className="logo">
+            <h2>Shaunak's</h2>
+          </div>
           <Link to="/">Home</Link>
           <Link to="/manageitems">Manage Items</Link>
           <Link to="/additems">Add Items</Link>
@@ -17,8 +20,13 @@ function Header() {
           <Link to="/contact">Contact</Link>
         </div>
 
-        <div className="logo">
-          <h2>Shaunak's</h2>
+        <div className="logreg">
+          <div className="login">
+            <button>LogIn</button>
+          </div>
+          <div className="register">
+            <button>Register</button>
+          </div>
         </div>
       </nav>
     </>
