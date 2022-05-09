@@ -15,7 +15,7 @@ function Shop() {
     <>
       <div className="books__shop">
         <h1>Smaple Products</h1>
-        <h4>
+        {/* <h4>
           Before you buy any book's let me tell you why you should read books.
         </h4>
         <p>
@@ -24,7 +24,7 @@ function Shop() {
           and die"
           <br />
           <span>-ANNE LAMOTT</span>
-        </p>
+        </p> */}
       </div>
       <div className="books__details">
         {booksItem.map((books) => (

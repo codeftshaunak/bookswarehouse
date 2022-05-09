@@ -87,3 +87,11 @@
         font-weight: bolder;
         cursor: pointer;
 }
+
+.books__detail input {
+        margin-top: 10px;
+        padding: 5px 10px;
+        font-family: 'poppins';
+        width: 200px;
+        margin-bottom: 10px;
+}

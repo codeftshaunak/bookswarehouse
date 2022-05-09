@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "../../shared/Footer/Footer";
 import Shop from "../Shop/Shop";
 import "./Home.css";
 
@@ -20,7 +21,9 @@ function Home() {
 
       <div className="section__2">
         <div className="left">
-          <h4>Read Our Books</h4>
+          <h4>
+            Read Our <span>Books</span>
+          </h4>
           <p>
             "Books help us understand who we are and how we are to behave. They
             show us what community and friendship mean; they show us how to live
@@ -30,11 +33,13 @@ function Home() {
         </div>
         <div className="right">
           <img
-            src="https://pixabay.com/get/ge4363770b58899bd3f5e36f98378f48e85b7fa5efeb9c6e2f5ea94e9d56bbdde487d4fcece9e2851dd15ee6122a7816b3c482a24540734e514a0c3299ba52c35ec9eccb934d54ce88a47aba7560fd017_1280.jpg"
+            src="https://img.freepik.com/free-vector/people-library-flat-vector-illustration_74855-6607.jpg?t=st=1652059121~exp=1652059721~hmac=55804f4c3aa92100979e0d75c21bdb33c41d0891a0c2ee25483d06362378647c&w=996"
             alt="bookshelf"
           />
         </div>
       </div>
+
+      <Footer></Footer>
     </>
   );
 }

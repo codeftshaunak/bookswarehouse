@@ -1,4 +1,5 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import "./Bookshop.css";
 
 function Bookshop(books) {
@@ -14,6 +15,10 @@ function Bookshop(books) {
     quantity,
     supplierName,
   } = books.books;
+  const navigate = useNavigate();
+  const showBooks = (id) => {
+    navigate(`booksdetail/${id}`);
+  };
 
   return (
     <>
@@ -31,7 +36,9 @@ function Bookshop(books) {
           <h5>Supplied By:{supplierName}</h5>
           <div className="book__btns">
             <button className="book__addtocart">Delivered</button>
-            <button className="book__details">Update</button>
+            <button className="book__details" onClick={() => showBooks(_id)}>
+              Details
+            </button>
           </div>
         </div>
       </div>

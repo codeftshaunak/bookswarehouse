@@ -29,3 +29,25 @@
         background-color: white;
         color: black;
 }
+
+.section__3 {
+        background-color: rgb(238, 237, 237);
+        padding: 50px 0;
+}
+
+.section__2 {
+        padding: 50px 0;
+        text-align: center;
+        background-color: rgb(255, 255, 255);
+        width: 350px;
+        margin: auto;
+}
+
+.section__2 .left h4 span {
+        color: red;
+        font-size: 20px;
+}
+
+.section__2 img {
+        width: 350px;
+}

@@ -1,0 +1,29 @@
+footer {
+        padding: 50px;
+        background-color: black;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+}
+
+footer input {
+        padding: 15px 20px;
+        font-family: 'poppins';
+        font-size: 15px;
+}
+
+footer button {
+        padding: 15px 20px;
+        font-family: 'poppins';
+        font-size: 15px;
+}
+
+.menu {
+        display: flex;
+}
+
+.menu li a {
+        text-decoration: none;
+        margin-left: 10px;
+        color: white;
+}
