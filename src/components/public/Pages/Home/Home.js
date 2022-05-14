@@ -38,6 +38,25 @@ function Home() {
           />
         </div>
       </div>
+      <div className="section__2">
+        <div className="left">
+          <h2>
+            Our <span>Vision</span>
+          </h2>
+          <p>
+            "Books help us understand who we are and how we are to behave. They
+            show us what community and friendship mean; they show us how to live
+            and die"
+          </p>
+          <span>-ANNE LAMOTT</span>
+        </div>
+        <div className="right">
+          <img
+            src="https://img.freepik.com/free-vector/people-library-flat-vector-illustration_74855-6607.jpg?t=st=1652059121~exp=1652059721~hmac=55804f4c3aa92100979e0d75c21bdb33c41d0891a0c2ee25483d06362378647c&w=996"
+            alt="bookshelf"
+          />
+        </div>
+      </div>
 
       <Footer></Footer>
     </>
