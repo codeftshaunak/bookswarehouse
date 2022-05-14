@@ -15,14 +15,6 @@ function Register() {
   const provider = new GoogleAuthProvider();
 
   const googleProvider = () => {
-    const [email, setEmail] = useState("");
-    const [password, setPassword] = useState("");
-    const [confpass, setConfPassword] = useState("");
-
-    const handleEmail = () => {
-      setEmail();
-    };
-
     signInWithPopup(app, provider)
       .then((result) => {
         navigate("/");
