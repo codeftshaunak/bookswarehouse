@@ -28,7 +28,14 @@ function App() {
             </RequireAuth>
           }
         ></Route>
-        <Route path="/booksdetail/:booksid" element={<Booksdetail />}></Route>
+        <Route
+          path="/booksdetail/:booksid"
+          element={
+            <RequireAuth>
+              <Booksdetail />
+            </RequireAuth>
+          }
+        ></Route>
         <Route
           path="/manageitems"
           element={
