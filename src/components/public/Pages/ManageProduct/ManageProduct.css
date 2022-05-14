@@ -1,0 +1,28 @@
+/* h2 {
+        text-align: center;
+}
+
+.manage__prod {
+        display: flex;
+        justify-content: flex-end;
+        flex-wrap: wrap;
+}
+
+.table {
+        text-align: center;
+        padding: 20px;
+        border: 1px solid brown;
+        margin: 5px;
+}
+
+table,
+th,
+td {
+        border: 1px solid black;
+}
+
+@media only screen and (max-width: 800px) {
+        .manage__prod {
+                justify-content: center;
+        }
+} */

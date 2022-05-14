@@ -1,0 +1,40 @@
+/* .form p {
+        margin-top: 5px;
+        text-align: center;
+}
+
+.form svg {
+        color: #a80202;
+        padding: 5px 9px;
+        border-radius: 50%;
+        font-size: 22px;
+        cursor: pointer;
+        transition: 0.5s ease-in-out;
+        margin: 5px;
+}
+
+.form svg:hover {
+        color: white;
+}
+
+.signin__with__facebook {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 15px;
+        cursor: pointer;
+        transition: 0.5s ease-in-out;
+        border: 1px solid #1d1d1d;
+        width: 80%;
+        margin: auto;
+}
+
+.bottomelement {
+        text-align: center;
+        padding: 10px;
+}
+
+.signin__with__facebook:hover {
+        background-color: #1d1d1d;
+        color: rgb(255, 255, 255);
+} */

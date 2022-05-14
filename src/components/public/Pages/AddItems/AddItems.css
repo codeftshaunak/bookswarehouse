@@ -1,13 +1,13 @@
-.formname {
+/* .formname {
         display: flex;
         flex-direction: column;
-        width: 28%;
+        width: 30%;
         margin: auto;
         padding-top: 20px;
 }
 
 .formname h3 {
-        font-size: 25px;
+        font-size: 20px;
         text-align: center;
 }
 
@@ -19,3 +19,9 @@ textarea {
         cursor: pointer;
         font-size: 15px;
 }
+
+@media only screen and (max-width: 800px) {
+        .formname {
+                width: 80%;
+        }
+} */

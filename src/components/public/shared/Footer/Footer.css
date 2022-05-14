@@ -1,9 +1,10 @@
-footer {
+/* footer {
         padding: 50px;
         background-color: black;
         display: flex;
         justify-content: space-around;
         align-items: center;
+        flex-wrap: wrap;
 }
 
 footer input {
@@ -26,4 +27,4 @@ footer button {
         text-decoration: none;
         margin-left: 10px;
         color: white;
-}
+} */

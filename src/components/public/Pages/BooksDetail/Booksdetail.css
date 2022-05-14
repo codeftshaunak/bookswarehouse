@@ -1,4 +1,4 @@
-.booksdetais {
+/* .booksdetais {
         width: 400px;
         margin: auto;
 }
@@ -6,3 +6,19 @@
 .booksdetais .books__detail {
         width: 400px;
 }
+
+.books__detail a {
+        text-decoration: none;
+        color: white;
+}
+
+.book__btns {
+        display: flex;
+        align-items: center;
+}
+
+.formnamebook {
+        width: 80%;
+        margin: auto;
+        padding-top: 20px;
+} */

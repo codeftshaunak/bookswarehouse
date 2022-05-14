@@ -11,6 +11,14 @@ body {
                 sans-serif;
 }
 
+a {
+        text-decoration: none;
+}
+
+li {
+        list-style: none;
+}
+
 nav {
         display: flex;
         justify-content: space-around;
@@ -43,7 +51,13 @@ nav svg {
         color: rgb(255, 255, 255);
         margin-left: 25px;
         font-size: 15px;
+        transition: 0.5s ease-in-out;
 }
+
+.navbar a:hover {
+        color: #9b9b9b;
+}
+
 
 .logo {
         font-family: 'Water Brush',
@@ -74,8 +88,109 @@ nav svg {
         cursor: pointer;
 }
 
+.logreg button a {
+        color: #302f2f;
+}
+
+.logreg button a:hover {
+        color: whitesmoke;
+}
+
 .logreg button:hover {
         background-color: #302f2f;
         color: whitesmoke;
         border: 1px solid rgb(207, 202, 202);
+}
+
+.logreg__mobile button {
+        padding: 7px 16px;
+        font-size: 15px;
+        font-family: 'Poppins';
+        background: whitesmoke;
+        border: none;
+        color: #302f2f;
+        margin-left: 6px;
+        font-weight: bold;
+        transition: 0.5s ease-in-out;
+        border: 1px solid rgb(207, 202, 202);
+        cursor: pointer;
+}
+
+.logreg__mobile button a {
+        color: #302f2f;
+}
+
+.logreg__mobile button a:hover {
+        color: whitesmoke;
+}
+
+.logreg__mobile button:hover {
+        background-color: #302f2f;
+        color: whitesmoke;
+        border: 1px solid rgb(207, 202, 202);
+}
+
+.logreg__mobile {
+        display: none;
+}
+
+.bar {
+        width: 30px;
+        height: 3px;
+        background-color: white;
+        margin-top: 5px;
+        display: none;
+}
+
+@media only screen and (max-width: 800px) {
+        body {
+                overflow-x: hidden;
+        }
+
+        .logreg__mobile {
+                display: block;
+        }
+
+        .logreg {
+                display: none;
+        }
+
+        .bar {
+                display: block;
+                cursor: pointer;
+        }
+
+        .humbarger {
+                cursor: pointer;
+        }
+
+        .navbar {
+                padding: 0 10px;
+                width: 100%;
+                justify-content: space-between;
+                position: relative;
+        }
+
+        .nav__items {
+                position: absolute;
+                right: 0;
+                top: 3.4em;
+                background-color: black;
+                height: 92vh;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                transition: .3s ease-in-out;
+                width: 45%;
+                justify-content: center;
+                transform: translateX(100%);
+        }
+
+        .nav__items a {
+                margin: 20px 0;
+        }
+
+        .nav-active {
+                transform: translateX(0%);
+        }
 }
