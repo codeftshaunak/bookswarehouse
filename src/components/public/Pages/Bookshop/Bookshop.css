@@ -78,7 +78,7 @@
         color: black;
 }
 
-/* .des__show__btn {
+.des__show__btn {
         padding: 10px;
         color: rgb(192, 192, 192);
         background: black;
@@ -87,7 +87,7 @@
         font-size: 12px;
         font-weight: bolder;
         cursor: pointer;
-} */
+}
 
 .books__detail input {
         margin-top: 10px;
