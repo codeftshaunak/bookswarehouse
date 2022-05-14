@@ -1,4 +1,4 @@
-/* .formname {
+.formname {
         display: flex;
         flex-direction: column;
         width: 30%;
@@ -24,4 +24,4 @@ textarea {
         .formname {
                 width: 80%;
         }
-} */
+}
