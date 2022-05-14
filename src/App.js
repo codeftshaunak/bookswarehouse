@@ -16,7 +16,7 @@ import RequireAuth from "./components/public/shared/RequireAuth/RequireAuth";
 function App() {
   return (
     <>
-      {/* <Header></Header>
+      <Header></Header>
       <Routes>
         <Route path="/" element={<Home />}></Route>
         <Route path="/blog" element={<Blog />}></Route>
@@ -56,7 +56,7 @@ function App() {
           }
         ></Route>
         <Route path="*" element={<Notfound />}></Route>
-      </Routes> */}
+      </Routes>
     </>
   );
 }
