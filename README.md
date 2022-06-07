@@ -3,11 +3,11 @@
 This project was bootstrapped with [Bookstore_Website](https://shaunakbookshop.web.app/).
 
 ## Description
--This is a books warehouse people can login and add more product
--After login people can add products and Restock items.
--You can also deliver products. 
--After delivery it'll reduce one from the database.
--Without login no one can purches anything.
+- This is a books warehouse people can login and add more product
+- After login people can add products and Restock items.
+- You can also deliver products. 
+- After delivery it'll reduce one from the database.
+- Without login no one can purches anything.
 
 In the project directory, you can run:
 
